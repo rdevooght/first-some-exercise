@@ -62,11 +62,11 @@ button {
     background-color: #89B964;
 }
 
-.redirect {
+.redirect button {
     background-color: #FB7477;
     border: 1px solid #F94144;
 }
 
-.redirect:hover {
+.redirect button:hover {
     background-color: #F82529;
 }

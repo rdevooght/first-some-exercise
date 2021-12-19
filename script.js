@@ -20,10 +20,8 @@ function suggest_exercise(redirect_url) {
   website = website.replace(/^www\./, '').replace(/\.com$/, '');
   template('website', website);
 
-  for (var elem of document.querySelectorAll('button.redirect')) {
-    elem.addEventListener('click', function() {
-      window.location.href = redirect_url;
-    });
+  for (var elem of document.querySelectorAll('.redirect')) {
+    elem.href = redirect_url;
   }
 
   // Show a random exercise
