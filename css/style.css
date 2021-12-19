@@ -1,0 +1,72 @@
+html {
+    font-size: 20px;
+    background-color: #FCE5B0;
+    font-family: Ubuntu, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #577590;
+}
+
+.main
+{
+    display: none;
+}
+
+#default
+{
+    display: block;
+}
+
+.main
+{
+    display: none;
+    width: 800px;
+    text-align: center;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; 
+    margin-left: -400px;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+    font-style: italic;
+}
+
+#suggestion {
+    font-family: 'Lemon', cursive;
+    font-size: 3em;
+    color: #34836C;
+}
+
+.decision {
+    margin-top: 40px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#i-did-it {
+    background-color: #9FC680;
+    border: 1px solid #7eb356;
+}
+
+#i-did-it:hover {
+    background-color: #89B964;
+}
+
+.redirect {
+    background-color: #FB7477;
+    border: 1px solid #F94144;
+}
+
+.redirect:hover {
+    background-color: #F82529;
+}

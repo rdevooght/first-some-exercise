@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>First, some exercise !</title>
+  <meta name="description" content="I see you want to distract yourself. How about a little bit of exercise first ?">
+  <meta name="author" content="Robin Devooght">
+
+  <meta property="og:title" content="First, some exercise">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:description" content="Encourages you to do a bit of exercise before going to a website that you would like to avoid.">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div id="default" class="main">
+    <p>Call this page with the parameter ?url=... to get an exercise suggested before going to the specified url</p>
+  </div>
+  <div id="landing" class="main">
+    <p>I see you want to go to {{ website }}</p>
+    <p>
+      But first you could
+    </p>
+    <h1 id="suggestion">
+    </h1>
+    <p>
+      &#128259; <a href="#" id="something-else">Give me something else to do</a>
+    </p>
+    <div class="decision">
+      <button id="i-did-it">&#128170; I did it !</button>
+      <button class="redirect">Not now, bring me to {{ website }}</button>
+    </div>
+  </div>
+  <div id="congratulations" class="main">
+    <h1>&#127881; Congratulation ! &#127881;</h1>
+    <p>
+      You are amazing !
+    </p>
+    <p>
+      What are you gonna do now ?
+    </p>
+    <div class="decision">
+      <button class="redirect">I still want to go to {{ website }}</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
