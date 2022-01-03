@@ -26,7 +26,8 @@ Add also the url of your exercise page, preceded by a ">".
 If you use github page, the url would probably be "your-username.github.io" (you need to specify the subdomain, but not necessarily the full url).
 
 ![LeechBlock options: what](/img/what.png)
-N.B.: it works well with youtube, netflix and other websites, but it seems to have problems with facebook and twitter.
+
+_N.B.: it works well with youtube, netflix and other websites, but it seems to have problems with facebook and twitter._
 
 Fill in the "when" section as follows (if you want this to be always active):
 
